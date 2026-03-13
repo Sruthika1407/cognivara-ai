@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='result.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>♡ Notepad</h1>
+
+    <p class="date">Date | {{ date }}</p>
+
+    <div class="topic-row">
+        <span>Topic:</span>
+        <input type="text" placeholder="Type your topic here">
+    </div>
+
+    <button class="save-btn">Save</button>
+
+    <hr>
+
+    <div class="notes">
+
+        <h3>Simplification:</h3>
+        <p style="white-space: pre-line;">{{ simplification }}</p>
+        
+        <h3>Story Type:</h3>
+        <p style="white-space: pre-wrap;">{{ story }}</p>
+
+        <h3>Bullet Points:</h3>
+        <ul>
+        {% for point in bullets.split('\n') %}
+        <li>{{ point }}</li>
+        {% endfor %}
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
+

@@ -1,0 +1,50 @@
+/* SAME BACKGROUND AS FIRST PAGE */
+.pink-bg {
+    background: linear-gradient(180deg, #ffd6e5, #ffe6ef);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Comic Sans MS", "Poppins", sans-serif;
+}
+
+/* CENTER CONTENT */
+.loading-container {
+    text-align: center;
+}
+
+/* LOADING TEXT */
+.loading-text {
+    color: #d87c9a;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* OUTER BOX */
+.loading-box {
+    width: 320px;
+    height: 22px;
+    border: 3px solid #d87c9a;
+    background: white;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+/* FILLING BAR */
+.loading-fill {
+    height: 100%;
+    width: 0%;
+    background-color: #f3a6bf;
+    animation: fillBar 2.5s ease-in-out forwards;
+}
+
+/* ANIMATION */
+@keyframes fillBar {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,60 @@
+body {
+    background: #ffdbe8;
+    font-family: "Comic Sans MS", cursive;
+}
+
+.card {
+    width: 380px;
+    background: #fff0f5;
+    margin: 80px auto;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(255,105,180,0.3);
+}
+
+h1 {
+    color: #e75480;
+}
+
+.tagline {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #f4a7bb;
+}
+
+button {
+    margin-top: 20px;
+    background: #e75480;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.notes {
+    width: 70%;
+    background: #fff0f5;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.highlight {
+    background: #ffd1dc;
+    padding: 2px 6px;
+    border-radius: 6px;
+}
+

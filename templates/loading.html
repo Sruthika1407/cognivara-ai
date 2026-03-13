@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loading...</title>
+    <link rel="stylesheet" href="/static/loading.css">
+</head>
+<body class="pink-bg">
+
+<div class="loading-container">
+    <h2 class="loading-text">Loading...</h2>
+
+    <div class="loading-box">
+        <div class="loading-fill"></div>
+    </div>
+</div>
+
+<!-- DO NOT TOUCH THIS -->
+<form id="sendForm" method="POST" action="/result">
+    <input type="hidden" name="content" value="{{ content }}">
+</form>
+
+<script>
+    setTimeout(() => {
+        document.getElementById("sendForm").submit();
+    }, 2800);
+</script>
+
+</body>
+</html>
+

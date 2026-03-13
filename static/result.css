@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+body {
+    background-color: #ffe1ea;
+    font-family: "Comic Sans MS", cursive;
+}
+
+.container {
+    padding: 40px;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+.date {
+    margin-top: 10px;
+}
+
+.topic-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.topic-row input {
+    border: none;
+    border-bottom: 2px solid #f48fb1;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    width: 300px;
+}
+
+.save-btn {
+    margin-top: 15px;
+    background-color: #f06292;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+hr {
+    margin: 25px 0;
+}
+
+.notes {
+    padding-left: 20px;
+}
+
+.notes li {
+    margin-bottom: 12px;
+    line-height: 1.6;
+    font-size: 15px;
+}
+body {
+    font-family: 'Comic Relief', cursive;
+}
+
+.notes {
+    font-family: 'Comic Relief', cursive;
+    line-height: 1.8;   /* 👈 gap between two lines */
+    font-size: 16px;    /* optional but clean */
+}
+
+
+
+
